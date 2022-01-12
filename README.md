@@ -4,32 +4,32 @@ Sprocket Central Pty Ltd, is a medium size bike & cycling accessories organisati
 
 Here are the steps of the project:
 
-**•** Assessment of data quality and completeness in preparation for analysis
-**•** Analyse the customers and reveal some important insights
-**•** Applied RFM segmentation to segment customers into four different segments (Platinum,Gold,Silver,Bronze)
-**•** Created a model by Desicion Tree by using the existent customers features to train a Classification model (with 99% accuracy)
-**•** Used the model on the new customers dataset with similar features to predicte what type each new customer would be
+- Assessment of data quality and completeness in preparation for analysis
+- Analyse the customers and reveal some important insights
+- Applied RFM segmentation to segment customers into four different segments (Platinum,Gold,Silver,Bronze)
+- Created a model by Desicion Tree by using the existent customers features to train a Classification model (with 99% accuracy)
+- Used the model on the new customers dataset with similar features to predicte what type each new customer would be
 
 # Python Packages Used:
 Pandas, numpy, sklearn, matplotlib, seaborn
 
 # Data Cleaning
 ## Customers Transactions Dataset
-**•** Ammended the missing value in online_order, brand, product line, product class, product size, standard cost and product_first_sold_date columns
-**•** Converted the types of list price, standard cost columns from object to numeric
-**•** Converted The Transactions date column from object into datetime
-**•** Extracted year,month,day from transaction date column
+- Ammended the missing value in online_order, brand, product line, product class, product size, standard cost and product_first_sold_date columns
+- Converted the types of list price, standard cost columns from object to numeric
+- Converted The Transactions date column from object into datetime
+- Extracted year,month,day from transaction date column
 
 ## Customer Demographics Dataset
-**•** Ammended the missing value in last_name, DOB, job_title, job_industry_category, default, tenure columns
-**•** Converted past_3_years_bike_related_purchases, tenure from object into numeric
-**•** Converted DOB column from object into datetime
-**•** Extracted Age column from DOB column
+- Ammended the missing value in last_name, DOB, job_title, job_industry_category, default, tenure columns
+- Converted past_3_years_bike_related_purchases, tenure from object into numeric
+- Converted DOB column from object into datetime
+- Extracted Age column from DOB column
 
 ## New Customers List Dataset
-**•** Ammended the missing value in job_title, job_industry_category columns
-**•** Delete wrong information in Gender columns
-**•** Extracted Age column from DOB column
+- Ammended the missing value in job_title, job_industry_category columns
+- Delete wrong information in Gender columns
+- Extracted Age column from DOB column
 
 # EDA Analysis
 After Data cleaning, I conducted an Exploratory data analysis on data by joining three old customers datasets
